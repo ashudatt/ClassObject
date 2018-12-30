@@ -11,8 +11,9 @@ namespace ClassObject
 
         public string GetDay()
         {
+            Console.WriteLine("made some change");
             return DateTime.Now.DayOfWeek.ToString();
-
+           
         }
     }
 }
